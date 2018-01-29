@@ -1,0 +1,55 @@
+@charset "utf-8";
+//html,body{
+//  background: url(../img/注册页完成效果.bmp);
+//  background-size: 100%;
+//}
+form{
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    margin-top: 39px;
+    text-align: center;
+}
+input:nth-of-type(1){
+    margin-top: 18px;
+    width: 380px;
+    height: 56px;
+}
+#yzm{
+    text-align: left;
+    margin-left: 577px;
+    .yzm{
+        width: 223px !important;
+    }
+    div{
+        float: right;
+        margin-right: 577px;
+        margin-top: 18px;
+        width: 143px;
+        height: 60px;
+        line-height: 60px;
+        background: #57565F;
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+    }
+}
+.sub{
+    width: 389px !important;
+    height: 60px !important;
+    margin-top: 15px !important;
+    background: #FF3C3C;
+    border: 1px solid #FF3C3C;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#wz{
+    margin-top: 16px;
+    font-size: 13px;
+    margin-left: -100px;
+}
+footer{
+    margin-top: 30px !important;
+}

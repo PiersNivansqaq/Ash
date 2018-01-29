@@ -1,0 +1,192 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+//html,body{
+//  background: url(../img/搜索列表页完成后效果.bmp) no-repeat;
+//  background-size: 100%;
+//}
+#top{
+      >nav{
+          margin-top: 22px;
+          ul{
+           li{
+               float: left;
+               font-size: 13px;
+           }
+           li:nth-last-of-type(1){
+               border: 1px dashed #FF704D;
+               padding: 5px;
+               margin-top: -5px;
+               margin-left: 10px;
+               span{
+                   color: #FF704D;
+               }
+           }
+       } 
+      } 
+    .column{
+        margin-top: 30px;
+        ul{
+            li:nth-of-type(1){
+                line-height: 25px;
+            }
+            li:nth-of-type(1){
+                span:nth-of-type(2){
+                    margin-left: 40px;
+                }
+            }
+            li:nth-of-type(2){
+                span:nth-of-type(2){
+                    margin-left: 40px;
+                }
+            }
+            li{
+                
+                padding: 14px;
+                border: 1px solid darkgray;
+                font-size: 14px;
+                
+                #fol2{
+                    margin-left: 100px;
+                }
+                span{
+                    padding: 8px;
+                }
+            }
+        }
+    }
+}
+
+#main{
+    margin-left: 120px;
+    margin-top: 24px;
+    margin-right: 100px;
+    .title{
+        border-bottom: 1px solid gray;
+        ul{
+            
+            li:nth-of-type(1){
+                position: relative;
+                width: 226px;
+                height: 40px;
+                span{
+                    position: absolute;
+                    
+                }
+                span:nth-of-type(1){
+                   left: 13px;
+                   font-size: 18px;
+                   top: 8px;
+                }
+                span:nth-of-type(2){
+                    right: 8px;
+                    top: 10px;
+                }
+            }
+            li{
+                float: left;
+                border: 1px solid darkgray;
+            }
+            li:not(.ls){
+                margin-top: 6px;
+                padding: 3.5px;
+                width: 55px;
+                font-size: 13px;
+                padding-left: 15px;
+            }
+        }
+    }
+    
+    .sidebar{
+        float: left;
+        width: 227px;
+        ul{
+            li{
+                text-align: center;
+                border: 1px solid darkgray;
+                height: 257px;
+                img{
+                    width: 83%;
+                    margin-top: 15px;
+                }
+                p{
+                    margin-top: 5px;
+                }
+                h3{
+                    margin-top: 5px;
+                    color: darkred;
+                }
+            }
+        }
+    }
+    
+    .banner{
+        float: left;
+        ul:not(.tou){
+            li{
+                height: 340px;
+                img{
+                    margin-top: 12px !important;
+                }
+            }
+        }
+        ul{
+            li{
+//              border: 1px solid gold;
+                width: 260px;
+                height: 369px;
+                text-align: center;
+                float: left;
+                img{
+                    margin-top: 50px;
+                }
+                h3{
+                    margin-top: 8px;
+                }
+                .cz{
+                    margin-top: 20px;
+                    div{
+                        float: left;
+                        border: 1px solid darkgray;
+                        height: 31px;
+                        line-height: 31px;
+                    }
+                    div:nth-of-type(1){
+                         margin-left: 18px;
+                         width: 73px;
+                    }
+                    div:nth-of-type(2){
+                        width: 147px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#fy{
+    margin: 43px;
+    float: right;
+    margin-right: 170px;
+    margin-bottom: 80px;
+    ul{
+        li{
+            text-align: center;
+            line-height: 29px;
+            float: left;
+            border: 1px solid darkgray;
+            padding: 5px;
+            margin-left: 15px;
+            height: 29px;
+        }
+        .ye{
+            width: 28px;
+        }
+        .sdj,.xdj{
+            width: 68px;
+        }
+    }
+}

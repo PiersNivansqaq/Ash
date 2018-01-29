@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background: #ffffff;
+  height: 76px;
+  border-bottom: 1.5px solid gainsboro; }
+  header img {
+    margin-left: 20px;
+    vertical-align: middle; }
+  header div {
+    float: right;
+    line-height: 31px; }
+  header select {
+    vertical-align: middle; }
+
+footer {
+  margin-top: 120px;
+  text-align: center; }
+  footer p {
+    margin-top: 16px; }
+
+/*# sourceMappingURL=user.css.map */

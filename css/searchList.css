@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#top > nav {
+  margin-top: 22px; }
+  #top > nav ul li {
+    float: left;
+    font-size: 13px; }
+  #top > nav ul li:nth-last-of-type(1) {
+    border: 1px dashed #FF704D;
+    padding: 5px;
+    margin-top: -5px;
+    margin-left: 10px; }
+    #top > nav ul li:nth-last-of-type(1) span {
+      color: #FF704D; }
+#top .column {
+  margin-top: 30px; }
+  #top .column ul li:nth-of-type(1) {
+    line-height: 25px; }
+  #top .column ul li:nth-of-type(1) span:nth-of-type(2) {
+    margin-left: 40px; }
+  #top .column ul li:nth-of-type(2) span:nth-of-type(2) {
+    margin-left: 40px; }
+  #top .column ul li {
+    padding: 14px;
+    border: 1px solid darkgray;
+    font-size: 14px; }
+    #top .column ul li #fol2 {
+      margin-left: 100px; }
+    #top .column ul li span {
+      padding: 8px; }
+
+#main {
+  margin-left: 120px;
+  margin-top: 24px;
+  margin-right: 100px; }
+  #main .title {
+    border-bottom: 1px solid gray; }
+    #main .title ul li:nth-of-type(1) {
+      position: relative;
+      width: 226px;
+      height: 40px; }
+      #main .title ul li:nth-of-type(1) span {
+        position: absolute; }
+      #main .title ul li:nth-of-type(1) span:nth-of-type(1) {
+        left: 13px;
+        font-size: 18px;
+        top: 8px; }
+      #main .title ul li:nth-of-type(1) span:nth-of-type(2) {
+        right: 8px;
+        top: 10px; }
+    #main .title ul li {
+      float: left;
+      border: 1px solid darkgray; }
+    #main .title ul li:not(.ls) {
+      margin-top: 6px;
+      padding: 3.5px;
+      width: 55px;
+      font-size: 13px;
+      padding-left: 15px; }
+  #main .sidebar {
+    float: left;
+    width: 227px; }
+    #main .sidebar ul li {
+      text-align: center;
+      border: 1px solid darkgray;
+      height: 257px; }
+      #main .sidebar ul li img {
+        width: 83%;
+        margin-top: 15px; }
+      #main .sidebar ul li p {
+        margin-top: 5px; }
+      #main .sidebar ul li h3 {
+        margin-top: 5px;
+        color: darkred; }
+  #main .banner {
+    float: left; }
+    #main .banner ul:not(.tou) li {
+      height: 340px; }
+      #main .banner ul:not(.tou) li img {
+        margin-top: 12px !important; }
+    #main .banner ul li {
+      width: 260px;
+      height: 369px;
+      text-align: center;
+      float: left; }
+      #main .banner ul li img {
+        margin-top: 50px; }
+      #main .banner ul li h3 {
+        margin-top: 8px; }
+      #main .banner ul li .cz {
+        margin-top: 20px; }
+        #main .banner ul li .cz div {
+          float: left;
+          border: 1px solid darkgray;
+          height: 31px;
+          line-height: 31px; }
+        #main .banner ul li .cz div:nth-of-type(1) {
+          margin-left: 18px;
+          width: 73px; }
+        #main .banner ul li .cz div:nth-of-type(2) {
+          width: 147px; }
+
+#fy {
+  margin: 43px;
+  float: right;
+  margin-right: 170px;
+  margin-bottom: 80px; }
+  #fy ul li {
+    text-align: center;
+    line-height: 29px;
+    float: left;
+    border: 1px solid darkgray;
+    padding: 5px;
+    margin-left: 15px;
+    height: 29px; }
+  #fy ul .ye {
+    width: 28px; }
+  #fy ul .sdj, #fy ul .xdj {
+    width: 68px; }
+
+/*# sourceMappingURL=searchList.css.map */

@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+#main {
+  margin-left: 120px; }
+  #main nav {
+    margin-top: 22px; }
+    #main nav ul li {
+      float: left;
+      font-size: 13px; }
+      #main nav ul li span {
+        color: red; }
+  #main .content {
+    margin-top: 16px;
+    float: left; }
+    #main .content .img > img {
+      height: 429px;
+      width: 427px; }
+    #main .content .img .imgs {
+      margin-left: 22.5px;
+      margin-top: 10px; }
+      #main .content .img .imgs img {
+        width: 90px;
+        height: 91px;
+        margin-left: 2px; }
+  #main .container {
+    float: left;
+    margin-left: 30px;
+    margin-top: 16px; }
+    #main .container .title p {
+      font-size: 15px;
+      margin-top: 5px; }
+    #main .container .money {
+      margin-top: 33px; }
+      #main .container .money p {
+        font-size: 13px; }
+        #main .container .money p span {
+          font-size: 20px;
+          color: red; }
+      #main .container .money p:nth-of-type(2) {
+        margin-top: 15px; }
+        #main .container .money p:nth-of-type(2) span {
+          font-size: 16px;
+          color: gray; }
+    #main .container .guige {
+      margin-top: 37px;
+      font-size: 13px; }
+      #main .container .guige div:nth-of-type(1) ul li:nth-of-type(3) {
+        margin-left: 16px; }
+      #main .container .guige div:nth-of-type(1) ul li:nth-of-type(4) {
+        margin-left: 16px; }
+      #main .container .guige div ul li {
+        float: left;
+        text-align: center; }
+      #main .container .guige div ul li:not(.tou) {
+        border: 1px solid darkgray;
+        width: 70px;
+        height: 30px;
+        line-height: 30px;
+        margin-top: -8px; }
+      #main .container .guige div:nth-of-type(3) {
+        margin-top: 20px; }
+        #main .container .guige div:nth-of-type(3) ul li:nth-of-type(1) {
+          text-align: left; }
+        #main .container .guige div:nth-of-type(3) ul li {
+          text-align: center;
+          width: 66px; }
+        #main .container .guige div:nth-of-type(3) ul li:nth-of-type(3) {
+          margin-left: 13px; }
+    #main .container .cz {
+      margin-top: 38px; }
+      #main .container .cz span {
+        margin-left: 33px; }
+      #main .container .cz span:nth-of-type(2) {
+        margin-left: 80px; }
+    #main .container .xd {
+      margin-top: 62px; }
+      #main .container .xd > div {
+        float: left; }
+      #main .container .xd .num input {
+        float: left;
+        width: 60px;
+        height: 45px; }
+      #main .container .xd .num button {
+        width: 22px;
+        height: 24px; }
+      #main .container .xd .num div {
+        float: left; }
+      #main .container .xd .gwc {
+        width: 200px;
+        height: 48px;
+        color: white;
+        font-size: 18px;
+        line-height: 48px;
+        background: orangered;
+        text-align: center;
+        margin-left: 6px;
+        border-radius: 5px; }
+  #main .zhuanqu {
+    width: 230px;
+    height: 200px;
+    float: left;
+    margin-left: 120px;
+    margin-top: 16px;
+    border: 1px solid gray; }
+    #main .zhuanqu img {
+      width: 100%; }
+    #main .zhuanqu div {
+      background: gainsboro;
+      text-align: center;
+      width: 100%;
+      height: 43px;
+      line-height: 43px;
+      margin-top: -10px; }
+
+.sidebar {
+  margin-left: 120px;
+  width: 230px;
+  margin-top: 17px;
+  float: left; }
+  .sidebar .title {
+    border: 2px solid #EDEDED;
+    background: #F6F6F6;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px; }
+  .sidebar ul li {
+    border: 1.5px solid #EDEDED; }
+    .sidebar ul li img {
+      width: 85%; }
+    .sidebar ul li p {
+      text-align: center;
+      font-size: 15px;
+      margin-top: 11px; }
+    .sidebar ul li h2 {
+      text-align: center;
+      color: darkred; }
+
+#container {
+  float: left;
+  margin-top: 17px; }
+  #container > div:nth-of-type(1) {
+    width: 1049px;
+    border: 1.5px solid #EDEDED;
+    padding-bottom: 28px; }
+    #container > div:nth-of-type(1) .title {
+      border: 2px solid #EDEDED;
+      background: #F6F6F6;
+      width: 1025px;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 20px; }
+    #container > div:nth-of-type(1) ul {
+      margin-top: 30px; }
+      #container > div:nth-of-type(1) ul li {
+        float: left;
+        margin-left: 40px; }
+        #container > div:nth-of-type(1) ul li img {
+          width: 120px;
+          height: 120px; }
+        #container > div:nth-of-type(1) ul li p {
+          margin-top: 22px; }
+        #container > div:nth-of-type(1) ul li div {
+          margin-top: 14px; }
+          #container > div:nth-of-type(1) ul li div span {
+            margin-left: 50px; }
+      #container > div:nth-of-type(1) ul .jia, #container > div:nth-of-type(1) ul .deng {
+        margin-top: 60px; }
+        #container > div:nth-of-type(1) ul .jia img, #container > div:nth-of-type(1) ul .deng img {
+          width: 30px;
+          height: 30px; }
+      #container > div:nth-of-type(1) ul .xiaoji {
+        margin-left: 10px; }
+        #container > div:nth-of-type(1) ul .xiaoji div:nth-of-type(1) {
+          color: orangered; }
+          #container > div:nth-of-type(1) ul .xiaoji div:nth-of-type(1) span {
+            font-size: 20px;
+            margin-left: 0; }
+        #container > div:nth-of-type(1) ul .xiaoji input {
+          width: 60px;
+          margin-top: -10px; }
+        #container > div:nth-of-type(1) ul .xiaoji div:nth-last-of-type(1) {
+          width: 150px;
+          height: 40px;
+          background: orangered;
+          text-align: center;
+          line-height: 40px;
+          color: white;
+          font-size: 17px;
+          border-radius: 5px; }
+  #container > div:nth-of-type(3) {
+    margin-top: 14px;
+    width: 1049px;
+    overflow: hidden;
+    border: 1.5px solid #EDEDED;
+    padding-bottom: 30px; }
+    #container > div:nth-of-type(3) ul:nth-of-type(1) {
+      margin-left: 27px; }
+    #container > div:nth-of-type(3) > ul {
+      float: left;
+      padding-top: 32px;
+      margin-left: 100px; }
+      #container > div:nth-of-type(3) > ul li {
+        line-height: 30px;
+        font-size: 13px; }
+    #container > div:nth-of-type(3) .title {
+      border: 2px solid #EDEDED;
+      background: #F6F6F6;
+      width: 1049px;
+      height: 30px;
+      line-height: 30px; }
+      #container > div:nth-of-type(3) .title ul li {
+        float: left;
+        margin-left: 30px; }
+  #container div:nth-of-type(4) {
+    margin-top: 13px;
+    width: 1049px;
+    overflow: hidden;
+    border: 1.5px solid #EDEDED;
+    padding-bottom: 30px;
+    border-top: 1.5px solid orangered; }
+    #container div:nth-of-type(4) .title {
+      border: 2px solid #EDEDED;
+      background: #F6F6F6;
+      width: 1049px;
+      height: 40px;
+      line-height: 40px;
+      color: orangered;
+      font-size: 17px;
+      padding-left: 20px; }
+    #container div:nth-of-type(4) ul li {
+      text-align: center;
+      margin-top: 10px; }
+      #container div:nth-of-type(4) ul li img {
+        width: 80%; }
+    #container div:nth-of-type(4) ul li:nth-last-of-type(1) img {
+      width: 100%; }
+
+/*# sourceMappingURL=detail.css.map */
